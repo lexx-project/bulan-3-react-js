@@ -1,0 +1,39 @@
+.alert {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.08);
+}
+
+.title {
+  font-weight: 600;
+}
+
+.info {
+  background-color: #e8f4ff;
+  color: #0b4a6f;
+  border-color: #80c3ff;
+}
+
+.success {
+  background-color: #e8f7ed;
+  color: #1e5b2c;
+  border-color: #8cd9a9;
+}
+
+.warning {
+  background-color: #fff7e6;
+  color: #705413;
+  border-color: #ffd27a;
+}
+
+.error {
+  background-color: #ffecec;
+  color: #6f1616;
+  border-color: #ff8b8b;
+}

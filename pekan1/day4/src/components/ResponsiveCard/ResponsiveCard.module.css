@@ -1,0 +1,48 @@
+.responsiveCard {
+  background-color: white;
+  border-radius: 8px;
+  width: 70%;
+  margin: auto;
+}
+
+.responsiveCardTittle {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.responsiveCardText {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .responsiveCard {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsiveCard {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .responsiveCardTittle {
+    font-size: 16px;
+  }
+
+  .responsiveCardText {
+    font-size: 12px;
+  }
+}
