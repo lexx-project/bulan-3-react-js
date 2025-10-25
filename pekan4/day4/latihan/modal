@@ -1,0 +1,34 @@
+  <div>
+          <div className="mx-auto flex max-w-3xl flex-col items-center justify-center px-6 py-12 text-center">
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <button
+                onClick={hanldeOpenModal}
+                className="inline-flex items-center justify-center rounded-lg bg-indigo-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+              >
+                showModal
+              </button>
+              <button
+                onClick={handleCloseModal}
+                className="inline-flex items-center justify-center rounded-lg border border-indigo-200 bg-white px-5 py-3 text-sm font-semibold text-indigo-600 shadow-sm transition hover:bg-indigo-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+              >
+                closeModal
+              </button>
+            </div>
+          </div>
+          <Modal ref={modalRef}>
+            <div className="space-y-3">
+              <p className="text-base">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
+                autem ea ipsam. Consequatur aperiam tempore, maiores dolorem
+                nesciunt nisi natus neque? Quidem adipisci obcaecati velit?
+                Tempore eveniet aperiam odit repellat.
+              </p>
+              <p className="text-sm text-slate-500">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit id
+                modi repellendus at necessitatibus, quae aperiam, possimus
+                accusamus quam beatae tempora voluptates iste amet soluta
+                maiores veniam obcaecati, recusandae ipsum.{" "}
+              </p>
+            </div>
+          </Modal>
+        </div>
